@@ -1,0 +1,3 @@
+[submodule "FortranVS/SyntaxHighlighting"]
+	path = FortranVS/SyntaxHighlighting
+	url = https://github.com/raldridge11/fortran.tmbundle.git
