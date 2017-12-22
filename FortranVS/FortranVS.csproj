@@ -57,6 +57,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>(robocopy "$(ProjectDir)\SyntaxHighlighting\Syntaxes" "$(HOMEDRIVE)$(HOMEPATH)\.vs\Extensions\Fortran" /mir) ^&amp; IF %25ERRORLEVEL%25 LEQ 3 exit 0
+(robocopy "$(ProjectDir)\SyntaxHighlighting\Snippets" "$(HOMEDRIVE)$(HOMEPATH)\.vs\Extensions\Fortran" /mir) ^&amp; IF %25ERRORLEVEL%25 LEQ 3 exit 0</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
