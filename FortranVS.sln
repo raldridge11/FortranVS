@@ -1,11 +1,109 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortranVS", "FortranVS\FortranVS.csproj", "{98AE8675-7AED-4095-9BB7-7B307DD45633}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortranVSTests", "FortranVSTests\FortranVSTests.csproj", "{7B00C23D-8C43-4777-95DB-3320491727F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Syntaxes", "Syntaxes", "{1BB4BB02-E51E-4FBD-9CEB-DFC182BDD317}"
+	ProjectSection(SolutionItems) = preProject
+		FortranVS\SyntaxHighlighting\Syntaxes\Fortran - Modern.tmLanguage = FortranVS\SyntaxHighlighting\Syntaxes\Fortran - Modern.tmLanguage
+		FortranVS\SyntaxHighlighting\Syntaxes\Fortran - Punchcard.tmLanguage = FortranVS\SyntaxHighlighting\Syntaxes\Fortran - Punchcard.tmLanguage
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{F5644A40-6431-41F1-BD62-948531D77586}"
+	ProjectSection(SolutionItems) = preProject
+		FortranVS\SyntaxHighlighting\Snippets\_FALSE_.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\_FALSE_.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\_TRUE_.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\_TRUE_.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\all.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\all.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Allocate and Deallocate array.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Allocate and Deallocate array.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Allocate Array.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Allocate Array.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\And.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\And.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\any.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\any.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\case.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\case.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Character.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Character.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Close File.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Close File.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\count.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\count.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Custom Type.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Custom Type.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\cycle.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\cycle.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\data.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\data.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Deallocate Array.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Deallocate Array.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\do while.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\do while.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\do.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\do.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Dot Product of Vectors.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Dot Product of Vectors.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\elseif.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\elseif.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Equal.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Equal.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Equality.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Equality.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\forall.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\forall.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\function.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\function.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Greater or Equal.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Greater or Equal.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Greater Than.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Greater Than.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\if (single line).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\if (single line).tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\if.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\if.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\implicit none.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\implicit none.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Implied do.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Implied do.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Index of Maximum.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Index of Maximum.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Index of Minimum.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Index of Minimum.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Input File.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Input File.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Inquire (by Filename).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Inquire (by Filename).tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Inquire (by Unit).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Inquire (by Unit).tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Integer.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Integer.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\interface.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\interface.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Less or Equal.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Less or Equal.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Less Than.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Less Than.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Line Continuation.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Line Continuation.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Logical.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Logical.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Lower Bound.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Lower Bound.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Matrix Multiplication.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Matrix Multiplication.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\max.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\max.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Maximum Value.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Maximum Value.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\merge.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\merge.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\min.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\min.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Minimum Value.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Minimum Value.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\module procedure.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\module procedure.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\module.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\module.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\named- do.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\named- do.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\named- select case.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\named- select case.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Non-Equality.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Non-Equality.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Not.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Not.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Open File.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Open File.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Or.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Or.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Output File.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Output File.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\pack.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\pack.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\print.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\print.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Product of Elements.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Product of Elements.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\program.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\program.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Character.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Character.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Custom Type.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Custom Type.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Integer.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Integer.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Logical.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Logical.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Open.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Open.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Read.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Read.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Real.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Real.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Quick Write.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Quick Write.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Random Number.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Random Number.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Random Seed.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Random Seed.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\read (Sequential Access).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\read (Sequential Access).tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\read.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\read.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Real.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Real.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\reshape.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\reshape.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Scratch File.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Scratch File.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\select case.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\select case.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Size.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Size.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\spread.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\spread.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\stop.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\stop.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\subroutine.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\subroutine.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Sum of Elements.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Sum of Elements.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Type Definition.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Type Definition.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\unpack.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\unpack.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Upper Bound.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Upper Bound.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\where (single line).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\where (single line).tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\where.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\where.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\Wrap Selection in Array Brackets.tmSnippet = FortranVS\SyntaxHighlighting\Snippets\Wrap Selection in Array Brackets.tmSnippet
+		FortranVS\SyntaxHighlighting\Snippets\write (Sequental Access).tmSnippet = FortranVS\SyntaxHighlighting\Snippets\write (Sequental Access).tmSnippet
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
